@@ -1,0 +1,356 @@
+/* ==========================================================================
+    Imports
+========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+/* ==========================================================================
+   Font
+========================================================================== */
+html, body, p, h1, h2, h3, h4 {
+    font-family: 'Open Sans', sans-serif;
+    /*font-size: 18px;*/
+    /*font-weight: 300;*/
+}
+
+
+
+
+/* 
+   Bigger stuff
+========================================================================== */
+
+body, html {
+    color: black;
+    height: 100%;
+    font-size: 18px;
+}
+/* Space out content a bit */
+body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+section {
+    min-height: 100%;   
+    /*background-color: #f9f9f9;*/
+    background-color: white;
+/*    box-shadow: rgba(0, 0, 0, 0.34902) 0px 2px 33px 0px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.34902) 0px 2px 33px 0px;*/
+}
+
+
+
+/* 
+    Video and landing section   
+========================================================================== */
+section video {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* 
+    Bootstrap overrides   
+========================================================================== */
+
+.img-responsive {
+    display: inline;
+    max-width: 100%;
+}
+
+
+/* 
+   Flat-UI
+========================================================================== */
+.color.turquoise {
+    background: #1ABC9C;
+}
+.color.green-sea {
+    background: #16A085;
+}
+.color.emerland {
+    background: #2ECC71;
+}
+.color.nephritis {
+    background: #27AE60;
+}
+.color.peter-river {
+    background: #3498DB;
+}
+.color.belize-hole {
+    background: #2980B9;
+}
+.color.amethyst {
+    background: #9B59B6;
+}
+.color.wisteria {
+    background: #8E44AD;
+}
+.color.wet-asphalt {
+    background: #34495E;
+    color: white;
+}
+.color.midnight-blue {
+    background: #2C3E50;
+    color: white;
+}
+.color.sun-flower {
+    background: #F1C40F;
+}
+.color.orange {
+    background: #F39C12;
+}
+.color.carrot {
+    background: #E67E22;
+}
+.color.pumpkin {
+    background: #D35400;
+}
+.color.alizarin {
+    background: #E74C3C;
+}
+.color.pomegranate {
+    background: #C0392B;
+}
+.color.clouds {
+    background: #ECF0F1;
+    color: #bdc3c7;
+}
+.color.silver {
+    background: #BDC3C7;
+}
+.color.concrete {
+    background: #95A5A6;
+}
+.color.asbestos {
+    background: #7F8C8D;
+}
+
+/* 
+    Vertical
+========================================================================== */
+.vertical {
+    margin: 0 auto;
+    display: table;
+}
+
+.vertical-content {
+    vertical-align: middle;
+    display: table-cell;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+/* 
+   CSS Helpers
+========================================================================== */
+
+.text-justify {
+    text-align: justify;
+}
+
+
+
+/* 
+    Assorted CSS 
+========================================================================== */
+.page-header {
+    padding: 15px;
+}
+
+.separator {
+    /*background-color: transparent;*/
+    /*background-attachment: fixed;*/
+    /*background:url(?holder.js/200x200/vine);*/
+    /*background:url('../images/large51.jpg');*/
+    background-size: cover;
+    max-height: 30%;
+    min-height: 30%;
+}
+
+.separator.background1 {
+    /*box-shadow: 0px 2px 33px rgba(0, 0, 0, 0.35);*/
+    box-shadow: rgba(0, 0, 0, 0.34902) 0px 2px 33px 0px inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.34902) 0px 2px 33px 0px inset;    
+    background:url('../images/large51.jpg') center;
+    /*background-image: url('../images/large51.jpg');*/
+    /*background:url(?holder.js/200x200/vine/auto) no-repeat;*/
+    /*background:url(?holder.js/1000x1000/vine/auto) #000 fixed no-repeat center;*/
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.row {
+    margin: 0px;
+}
+
+.navbar .container,
+.splash .container {    
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;    
+}
+.navbar .container {
+    max-width: 800px;
+}
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    /*padding-bottom: 19px;*/
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    /*border-bottom: 1px solid #e5e5e5;*/
+    /*background: #252222 url(../images/gradient06.png) no-repeat top center;*/
+    /*background: url("../images/gradient06.png");*/
+    /*background: #252222 url(_images/gradient06.png) no-repeat top center;*/
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    /*padding: 14px 24px;*/
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+}
+
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+
+/* 
+   Navbar mods
+========================================================================== */
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: black;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: black;
+  background-color: #080808;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: white;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #000000;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+    color: black;
+    background-color: white;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus     {
+    border-color: transparent;
+    color: black;
+    background-color: white;
+}
+
+.navbar-brand {
+    padding: 7.5px 15px;
+}
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #2ec9ea;
+  background-color: transparent;
+}
+
+/* ==========================================================================
+   Do not add non-responsive stuff below or unpleasant things will happen
+========================================================================== */
+
+/*As soon as */
+@media screen and (max-width: 768px) {
+
+    .navbar-brand {
+        padding: 8px 20px;
+    }
+    section.splash {
+        margin-top: 50px;
+    }
+
+    .navbar-inverse {
+        background-color: white;
+        border-color: transparent;
+        box-shadow: 0px 2px 33px rgba(0, 0, 0, 0.35);
+
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: black;
+    }
+    .navbar-inverse .navbar-brand {
+        color: black;
+    }
+
+    .navbar-inverse .navbar-nav > .active > a,
+    .navbar-inverse .navbar-nav > .active > a:hover,
+    .navbar-inverse .navbar-nav > .active > a:focus {
+        color: #2ec9ea;
+        background-color: white;
+    }
+}
