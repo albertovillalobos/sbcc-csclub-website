@@ -196,7 +196,8 @@ section video {
     margin-left: auto;    
 }
 .navbar .container {
-    max-width: 800px;
+    max-width: 750px;
+
 }
 .browsehappy {
     margin: 0.2em 0;
@@ -323,7 +324,7 @@ section video {
    Do not add non-responsive stuff below or unpleasant things will happen
 ========================================================================== */
 
-/*As soon as */
+/*Nav bar stuff*/
 @media screen and (max-width: 768px) {
 
     .navbar-brand {

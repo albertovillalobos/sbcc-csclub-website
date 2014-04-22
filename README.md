@@ -6,7 +6,7 @@ SBCC Computer Science Club
 I'm now releasing the code for the CS Club Website. As you can tell, we're going for a single page design.
 I've set it up in a simple and readable way so you guys can have an easier time editing it.
 If you have any questions email me at  [alberto@albertovillalobos.me](mailto:alberto@albertovillalobos.me), 
-anything other form of communication look for in [albertovillalobos.me](alberto@albertovillalobos.me) 
+anything other form of communication look for in [albertovillalobos.me](http://albertovillalobos.me) 
 
 
 
