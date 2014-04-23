@@ -179,7 +179,8 @@ section video {
     /*background:url(?holder.js/200x200/vine/auto) no-repeat;*/
     /*background:url(?holder.js/1000x1000/vine/auto) #000 fixed no-repeat center;*/
     background-size: cover;
-    background-attachment: fixed;
+    background-position: 0px 0px;
+    background-attachment: scroll;
 
 }
 
