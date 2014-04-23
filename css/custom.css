@@ -47,6 +47,8 @@ section {
 ========================================================================== */
 section video {
     width: 100%;
+    max-height: 100%;/* Make sure the video is not toller than the screen even if it is a good width */
+    background: black; /* Surround the video with black so that it looks nice (nice enough anyways) */
     margin: 0px;
     padding: 0px;
 }
