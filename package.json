@@ -1,0 +1,26 @@
+{
+  "name": "csclub-website",
+  "version": "0.0.0",
+  "description": "The computer science website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/albertovillalobos/sbcc-csclub-website.git"
+  },
+  "author": "Alberto Villalobos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertovillalobos/sbcc-csclub-website/issues"
+  },
+  "homepage": "https://github.com/albertovillalobos/sbcc-csclub-website",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-connect": "^0.7.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "time-grunt": "^0.3.1",
+    "load-grunt-tasks": "^0.4.0"
+  }
+}

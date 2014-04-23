@@ -9,7 +9,8 @@
    Font
 ========================================================================== */
 html, body, p, h1, h2, h3, h4 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Helvetica Neue', 'Open Sans', sans-serif;
+    font-weight: 250;
     /*font-size: 18px;*/
     /*font-weight: 300;*/
 }
