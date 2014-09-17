@@ -42,12 +42,12 @@
                         <li class="active"><a href="#home" data-scroll easeInOutQuad>Home</a></li>
                         <li><a href="#about" data-scroll easeInOutQuad>Us</a></li>
                         <li><a href="#events" data-scroll easeInOutQuad>Events</a></li>
-                        <li><a href="#gallery" data-scroll easeInOutQuad>Gallery</a></li>
+                        <!-- <li><a href="#gallery" data-scroll easeInOutQuad>Gallery</a></li> -->
                         <li><a href="#blog">Blog</a></li>
                         <li><a href="#tutorials">Tutorials</a></li>
                         <!-- <li><a href="#calendar">Calendar</a></li> -->
-                        <li><a href="#contact" data-scroll easeInOutQuad>Join</a></li>
-                        <li><a href="#join" data-scroll easeInOutQuad>Contact</a></li>
+                        <li><a href="#join" data-scroll easeInOutQuad>Join</a></li>
+                        <li><a href="#contact" data-scroll easeInOutQuad>Contact</a></li>
                     </ul>
                 </div>
 
@@ -118,6 +118,39 @@
             </div>
         </section>
 
+        <section class='separator background1'></section>
+
+        <section id="join">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="page-header text-center">
+                            <h1>Join our mailing list!</h1>
+                        </div>                     
+                    </div>
+                </div>    
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 text-center">
+                        <form class="form-inline" role="form" method="POST" data-async action="php/sendmail.php" id="email-form">
+                          <div class="form-group">
+                            <div class="input-group">
+                              <div class="input-group-addon">@</div>
+                              <input class="form-control" type="email" placeholder="Enter your email here" name="email">
+                            </div>
+                          </div>
+                          <br><br>
+                          <div class="form-group">
+                            <div class="input-group">
+                                <button type="submit" class="btn btn-default" data-target>Join!</button>
+                            </div>
+                          </div>
+                          <div id="callback_response">
+                          </div>
+                        </form>                           
+                    </div>
+                </div>         
+            </div>
+        </section>        
 
 
         <!-- Scripts at the bottom for performance -->

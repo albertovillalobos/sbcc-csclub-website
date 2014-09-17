@@ -36,7 +36,47 @@
 
     $(document).scroll(function(event) {
         var newHeight = ($(window).scrollTop() / $(document).height()) * 1200 * (-1) + 500;
-        console.log(newHeight);
+        // console.log(newHeight);
         $("section.background1").css("background-position-y", newHeight + "px");
+    });
+
+
+
+    $(document).ready(function($) {
+
+        $(function($) {
+            $('form[data-async]').on('submit', function(event) {
+                var $form = $(this);
+                var $target = $($form.attr('data-target'));
+
+                $.ajax({
+                    type: $form.attr('method'),
+                    url: $form.attr('action'),
+                    data: $form.serialize(),
+
+                    success: function(data, status) {
+                        $target.modal('hide');
+                        console.log(data);
+                        var response = $.parseJSON(data);
+                        console.log(response);
+
+                        if(response.message === 'success') {
+                            $('#email-form').trigger("reset");
+                            console.log(data);
+                            $('#callback_response').html('Thank you! You will receive a confirmation email shortly');
+                        }
+                        else {
+                            $('#email-form').trigger("reset");
+                            console.log(data);
+
+                            $('#callback_response').html('Oops, something went wrong :c !') 
+                        }
+                    }
+                });
+
+                event.preventDefault();
+            });
+        });        
+        
     });
 })(jQuery);
